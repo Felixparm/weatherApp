@@ -6,11 +6,12 @@ var options = {
     useNewUrlParser: true,
 }
 
-mongoose.connect('mongodb+srv://david:hgm4lRQq8QM1p3P8@cluster0-9xbpy.mongodb.net/openweatherapp?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://felixparmentier:felixparmentier@cluster0.2qce4.mongodb.net/weatherapp?retryWrites=true&w=majority'
+    ,
     options,
     function(err){
         console.log(err);
     }
 )
 
-module.exports = mongoose
+module.exports = mongoose;
